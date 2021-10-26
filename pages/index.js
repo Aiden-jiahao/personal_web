@@ -1,10 +1,17 @@
 import Head from "next/head";
-
+import Header from "../components/Header";
 export default function Home() {
   return (
     <div>
-      <h1> this is mine !!</h1>
-      <h2>abababa</h2>
+      <Head>
+        <h1>Aidens Portfolio</h1>
+      </Head>
+
+      {/* Header*/}
+      <Header />
+
+      {/* Banner*/}
+      {/* Footer*/}
     </div>
   );
 }
