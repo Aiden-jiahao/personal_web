@@ -2,16 +2,17 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="header flex py-3 bg-black  space-x-4 ">
-      <div className="header__left text-white sm:w-16 md:w-32 lg:w-48 ">
+    <div className="header flex py-3   space-x-4 ">
+      <div className="header__left text-black sm:w-16 md:w-32 lg:w-48  bg-green-500 active:bg-green-700">
         <p>Icon</p>
       </div>
 
-      <div className="header__right  flex space-x-4 bg-green-500 md:bg-red-500 lg:bg-green-500">
-        <p> About me</p>
-        <p> Project</p>
-        <p> Contact Me</p>
-        <p> Resume</p>
+      <div className="  header__right   flex space-x-4 ">
+        <p className=" transform motion-safe:hover:scale-110"> About me</p>
+        <p className=" motion-safe:hover:scale-110"> Project</p>
+        <p className=" hover:bg-red-500"> Contact Me</p>
+        <p className=" hover:bg-red-500 motion-safe:hover:scale-110"> Resume</p>
+        {/* hover: as move on it , color gets changed*/}
       </div>
     </div>
   );
