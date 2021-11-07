@@ -7,7 +7,7 @@ function Header() {
         <p>Icon</p>
       </div>
 
-      <div className="  header__right   flex space-x-4 ">
+      <div className="  header__right   flex space-x-4 px-64">
         <p className=" transform motion-safe:hover:scale-110"> About me</p>
         <p className=" motion-safe:hover:scale-110"> Project</p>
         <p className=" hover:bg-red-500"> Contact Me</p>
