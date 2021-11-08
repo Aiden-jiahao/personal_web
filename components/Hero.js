@@ -3,8 +3,6 @@ import React from "react";
 function Hero() {
   return (
     <div className="inline-flex space-x-10">
-      <p>this is the hero section</p>
-
       <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:scale-110 ">
         <div class="md:flex">
           <div class="p-8">
