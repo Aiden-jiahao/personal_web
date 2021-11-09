@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import Contact from "./contact";
 export default function Navbar() {
   const router = useRouter();
   console.log(router.asPath);
