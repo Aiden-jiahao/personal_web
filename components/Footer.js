@@ -1,38 +1,30 @@
 import React from "react";
-import ReactPlayer from "react-player";
-function Footer() {
+
+export default function Footer() {
   return (
-    <div className=" md:decoration-clone bg-gradient-to-b from-yellow-400 to-red-500 ">
-      {/*decoration-clone bg-gradient-to-b 整个页面被render*/}
-      <p>this is the footer </p>
-      <div className="px-10 py-10 flex space-x-4">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=JxjD0ez0zEg"
-          controls
-          playbackRate={1}
-          width="700px"
-          height="400px"
+    <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+        <div className="h-0.5 w-full bg-black dark:bg-gray-700"></div>
+        <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between mt-8">
+          <div>
+            Developed by{"  "}
+            <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
+              <a
+                className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
+                href="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+              >
+                Aiden Liu
+              </a>
+            </div>
+          </div>
 
-          /* controls = Display native player controls 
-            playbackRate = Set the playback rate of the player
-            width = Set the width of the player
-            height = Set the height of the player*/
-        />
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=SJRgJbGr3DY"
-          controls
-          playbackRate={1}
-          width="700px"
-          height="400px"
-
-          /* controls = Display native player controls 
-            playbackRate = Set the playback rate of the player
-            width = Set the width of the player
-            height = Set the height of the player*/
-        />
+          <a href="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
+            <p className=" text-gray-800 dark:text-gray-300">
+              aidenjiahao@gmail.com
+            </p>
+          </a>
+        </div>
       </div>
     </div>
   );
 }
-
-export default Footer;

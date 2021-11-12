@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactPlayer from "react-player";
 function Hero() {
   return (
     <div className="inline-flex space-x-10">
@@ -18,7 +18,6 @@ function Hero() {
           </div>
         </div>
       </div>
-
       <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:scale-110">
         <div class="md:flex">
           <div class="p-8">
@@ -36,6 +35,32 @@ function Hero() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="px-10 py-10 flex space-x-4">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=JxjD0ez0zEg"
+          controls
+          playbackRate={1}
+          width="700px"
+          height="400px"
+
+          /* controls = Display native player controls 
+            playbackRate = Set the playback rate of the player
+            width = Set the width of the player
+            height = Set the height of the player*/
+        />
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=SJRgJbGr3DY"
+          controls
+          playbackRate={1}
+          width="700px"
+          height="400px"
+
+          /* controls = Display native player controls 
+            playbackRate = Set the playback rate of the player
+            width = Set the width of the player
+            height = Set the height of the player*/
+        />
       </div>
     </div>
   );
