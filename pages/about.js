@@ -6,27 +6,29 @@ function about() {
   return (
     <div>
       <Header />
-      <div className="px-10 py-10 flex space-x-4">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=JxjD0ez0zEg"
-          controls
-          playbackRate={1}
-          width="700px"
-          height="400px"
 
-          /* controls = Display native player controls 
-            playbackRate = Set the playback rate of the player
-            width = Set the width of the player
-            height = Set the height of the player*/
-        />
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=SJRgJbGr3DY"
-          controls
-          playbackRate={1}
-          width="700px"
-          height="400px"
-        />
+      <div className="flex grid-cols-2 gap-20 justify-center ">
+        <div className="transform hover:scale-110 transition duration-200 ">
+          <ReactPlayer
+            url="https://youtu.be/Jk0MiqpwZoU"
+            controls
+            playbackRate={1}
+            width="500px"
+            height="300px"
+          />
+        </div>
+
+        <div className="  transform hover:scale-110 transition duration-200 ease-out object-cover">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=SJRgJbGr3DY"
+            controls
+            playbackRate={1}
+            width="500px"
+            height="300px"
+          />
+        </div>
       </div>
+
       <Footer />
     </div>
   );
