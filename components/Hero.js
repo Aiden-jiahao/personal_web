@@ -63,6 +63,17 @@ export default function Hero() {
         </div>
 
         <div className="cursor-pointer hover:scale-110 duration-200">
+          <Link href="https://devdocs.io/c/" >
+          <Image
+            alt="c language icon"
+            src="/Icons/c.JPG"
+            height={75}
+            width={75}
+          />
+          </Link>
+        </div>
+
+        <div className="cursor-pointer hover:scale-110 duration-200">
           <Link href="https://firebase.google.com/" >
           <Image
             alt="firebase icon"
