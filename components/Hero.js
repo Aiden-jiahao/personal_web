@@ -65,7 +65,7 @@ export default function Hero() {
         <div className="cursor-pointer hover:scale-110 duration-200">
           <Link href="https://devdocs.io/c/" >
           <Image
-            alt="c language icon"
+            alt="c  icon"
             src="/Icons/c.JPG"
             height={75}
             width={75}
@@ -131,5 +131,5 @@ export default function Hero() {
    </div>
   );
 }
-
+ 
 
