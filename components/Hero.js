@@ -1,68 +1,72 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import Image from "next/image";
 function Hero() {
   return (
-    <div className="inline-flex space-x-10">
-      <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:scale-110 ">
-        <div class="md:flex">
-          <div class="p-8">
-            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-              Netflix Project
-            </div>
-            <button class="py-2 px-4 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75">
-              The link
-            </button>
-            <p class="mt-2 text-gray-500">
-              In this project, the react.js is used and.......
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:scale-110">
-        <div class="md:flex">
-          <div class="p-8">
-            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-              Amazon Project
-            </div>
-            <link_a
-              href="#"
-              class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-            >
-              The link
-            </link_a>
-            <p class="mt-2 text-gray-500">
-              In this project, the react.js is used and.......
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="px-10 py-10 flex space-x-4">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=JxjD0ez0zEg"
-          controls
-          playbackRate={1}
-          width="700px"
-          height="400px"
+   <div className=" max-w-6xl mx-auto">
+     <h1 className="text-5xl text-center font-bold md:text-7xl md:text-left">The Story So Far</h1>
+     <p className="text-xl mt-5 px-5">Coding isn’t just 0/1,  it is the digital ART I am building on. 
+</p> 
+<p className="text-xl mt-5 px-5">Starting from the freshman year of university, after learning the C language, I discovered that the code allows me to see the big picture from the small.  From the moment I produced "Hello world" in the console of my first application, I knew I was hooked into the world of software developer. But software engineering  has never been "just a job" for me, it's offered me an engaging challenge to continually learn and improve my skills in creating high quality software. What started with a simple "Hello world" has become a full-fledged passion that only gets exciting as the years go by.
+</p> 
 
-          /* controls = Display native player controls 
-            playbackRate = Set the playback rate of the player
-            width = Set the width of the player
-            height = Set the height of the player*/
-        />
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=SJRgJbGr3DY"
-          controls
-          playbackRate={1}
-          width="700px"
-          height="400px"
+<p className="text-xl mt-5 px-5 justify-items-start">Learning is a process of growth, and it can never be stopped. Stay Hungry. Stay Foolish.
+</p>
+<h1 className="mx-5 bg-red-500 text-xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Tech Stack</h1>
 
-          /* controls = Display native player controls 
-            playbackRate = Set the playback rate of the player
-            width = Set the width of the player
-            height = Set the height of the player*/
-        />
-      </div>
-    </div>
+<div className="flex flex-row flex-wrap mt-8 mx-5 gap-4">
+          <Image alt="next icon" src="/icons/next.svg" height={75} width={75} />
+          <Image
+            alt="react icon"
+            src="/icons/react.svg"
+            height={75}
+            width={75}
+          />
+          <Image
+            alt="angular icon"
+            src="/icons/ang.svg"
+            height={75}
+            width={75}
+          />
+          <Image
+            alt="tailwind icon"
+            src="/icons/tail.svg"
+            height={75}
+            width={75}
+          />
+          <Image
+            alt="material icon"
+            src="/icons/material.svg"
+            height={75}
+            width={75}
+          />
+          <Image
+            alt="redux icon"
+            src="/icons/redux.svg"
+            height={75}
+            width={75}
+          />
+          <Image alt="sass icon" src="/icons/sass.svg" height={75} width={75} />
+          <Image
+            alt="javascript icon"
+            src="/icons/js.svg"
+            height={75}
+            width={75}
+          />
+          <Image
+            alt="html icon"
+            src="/icons/html5.svg"
+            height={75}
+            width={75}
+          />
+          <Image alt="css icon" src="/icons/css3.svg" height={75} width={75} />
+          <Image
+            alt="firebase icon"
+            src="/icons/firebase.svg"
+            height={75}
+            width={75}
+          />
+        </div>
+   </div>
   );
 }
 
