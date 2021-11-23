@@ -43,7 +43,7 @@ export default function Hero() {
           <Link href="https://redux.js.org/" >
           <Image
             alt="Redux icon"
-            src="/Icons/Redux.JPG"
+            src="/Icons/redux.JPG"
             height={75}
             width={75}
           />
