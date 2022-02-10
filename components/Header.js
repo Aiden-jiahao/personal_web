@@ -74,7 +74,7 @@ export default function Navbar() {
           </Link>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1BHLMNlHykknTjynUa-F80Zvp5XxySx4D/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NPEzTLo0Aifmm3lmdOgQIuakBePQNl97/view?usp=sharing"
             rel="noopener noreferrer"
             className=" dark:text-gray-300 font-normal"
           >
